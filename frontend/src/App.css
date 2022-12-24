@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: inherit;
+}
+
+.main {
+  height: 80vh;
+}
+.navbar {
+  min-height: 12vh;
+}
+
+.form-button button {
+  border-radius: 100px !important;
+  padding: 12px 35px !important;
+  margin: 0px 5px;
+  border: 1px solid #50d1c0;
+  color: #50d1c0;
+  outline: none;
+  font-size: 1rem;
+  background-color: #343a40 !important;
+  font-weight: 400;
+  text-align: center;
+  background-color: transparent;
+}
+.formSection {
+  padding: 50px;
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  /* background:linear-gradient(330deg, #4d6a8a 55%,#fff 0%) !important; */
+}
+input {
+  border-radius: 8px !important;
+  -webkit-border-radius: 8px !important;
+  -moz-border-radius: 8px !important;
+  -ms-border-radius: 8px !important;
+  -o-border-radius: 8px !important;
+}
+.navbar-brand {
+  font-family: Lucida Handwriting !important;
+  color: #c2a5cd !important;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.phonebook {
+  height: 65vh;
+  overflow-x: hidden;
+  overflow-y:scroll;
+}
+.phonebook::-webkit-scrollbar { 
+  overflow: hidden;
+}
+/*	
+	Table Responsive
+	===================
+	Author: https://github.com/pablorgarcia
+ */
+
+ .table thead{
+  height: 8vh;   
+ }
